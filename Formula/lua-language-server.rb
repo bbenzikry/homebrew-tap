@@ -2,7 +2,7 @@ class LuaLanguageServer < Formula
   desc ""
   homepage ""
   license ""
-  head "https://github.com/sumneko/lua-language-server"
+  head "https://github.com/sumneko/lua-language-server.git"
 
   depends_on "ninja" => :build
 
