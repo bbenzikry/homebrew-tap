@@ -1,13 +1,9 @@
 class LuaLanguageServer < Formula
-  desc ""
-  homepage ""
-  license ""
-  head "https://github.com/sumneko/lua-language-server.git"
-
-  depends_on "ninja" => :build
-
+  url "https://github.com/sumneko/vscode-lua/archive/refs/tags/v1.20.1.tar.gz"
   def install
     opoo "This is a private tap, use at your own peril"
-    system "cd 3rd/luamake && ninja -f ninja/macos.ninja && cd ../.. && ./3rd/luamake/luamake rebuild"
+    bin.install "./bin/macOS/lua-language-server"
+    lib.install "./bin/macOS/bee.so"
+    lib.install "./bin/macOS/lpeglabel.so"
   end
 end
