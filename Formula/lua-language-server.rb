@@ -1,5 +1,4 @@
 class LuaLanguageServer < Formula
-  :using => git
   desc ""
   homepage ""
   license ""
