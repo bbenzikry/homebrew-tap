@@ -8,6 +8,6 @@ class LuaLanguageServer < Formula
 
   def install
     opoo "This is a private tap, use at your own peril"
-    system "cd 3rd/luamake && ninja -f ninja/macos.ninja && cd ../.. && ./3rd/luamake/luamake/luamake rebuild"
+    system "cd 3rd/luamake && ninja -f ninja/macos.ninja && cd ../.. && ./3rd/luamake/luamake rebuild"
   end
 end
