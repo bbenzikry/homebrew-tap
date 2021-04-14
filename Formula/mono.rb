@@ -58,7 +58,7 @@ class Mono < Formula
   end
 
   resource "fsharp-layout-patch" do
-    url "https://raw.githubusercontent.com/mono/mono/c90ec48f596c5d18c07724c749fa13c5ad07161d/packaging/MacSDK/fsharp-layout.sh"
+    url "https://raw.githubusercontent.com/mono/mono/main/packaging/MacSDK/fsharp-layout.sh"
     # sha256 "f2cc63bf77e50663d91c6d102ba1d9217d1b9100c57071f79f0ae5a45e80ef42"
   end
 
