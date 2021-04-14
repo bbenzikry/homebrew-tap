@@ -39,7 +39,7 @@ class Mono < Formula
 
   resource "fsharp" do
     url "https://github.com/dotnet/fsharp.git",
-        tag:      "v11.3.2",
+        tag:      "v11.3.2"
         # revision: "9cf3dbdf4e83816a8feb2eab0dd48465d130f902"
     # F# patches hhen upgrading Mono, make sure to use the revision from
     # https://github.com/mono/mono/blob/mono-#{version}/packaging/MacSDK/fsharp.py
